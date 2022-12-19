@@ -1,6 +1,6 @@
 name: cupertino_tables
 description: Flutter package providing cupertino tables section and cupertino table row.
-version: 1.0.2
+version: 1.0.0
 homepage: https://github.com/esodot/flutter_cupertino_tables
 
 environment:

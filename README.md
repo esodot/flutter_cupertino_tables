@@ -1,39 +1,48 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+![example workflow](https://github.com/esodot/flutter_cupertino_tables/actions/workflows/flutter.yml/badge.svg)
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flutter package providing cupertino table section and cupertino table row.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Configurable easy to use Cupertino iOS like table section and table rows
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Run `flutter pub add cupertino_tables`
+
+Run `flutter pub get`
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Import packages
 
 ```dart
-const like = 'sample';
+import 'package:cupertino_tables/cupertino_table_section.dart';
+import 'package:cupertino_tables/cupertino_table_row.dart';
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Check example how to use [example](example/README.md)
+
+## Contribution
+
+You are very welcome to contribute to the package:
+
+- Fork the Repo
+- Add your changes (don't forget to add tests as well)
+- Create a Pull Request (PR)
+
+We will check your input asap
+
+## Publisher
+
+Created by AndroDevs @2022
+
+Follow us on Twitter [AndroDevs](https://twitter.com/AndroDevs)
+
+## Disclaimer
+
+Support for this library is given as _best effort_.
+
+This library has not been reviewed or vetted by security professionals.
