@@ -21,6 +21,13 @@ Import packages
 ```dart
 import 'package:cupertino_tables/cupertino_table_section.dart';
 import 'package:cupertino_tables/cupertino_table_row.dart';
+
+// Use default constructor `CupertinoTableSection` to implement long dividers between rows.
+CupertinoTableSection(children: []);
+
+// Use named constructor `CupertinoTableSection.leaded` to implement short dividers between rows, 
+// as leading widget will be considers
+CupertinoTableSection.leaded(children: []);
 ```
 
 ## Additional information
