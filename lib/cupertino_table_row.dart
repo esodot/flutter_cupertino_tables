@@ -160,13 +160,17 @@ class CupertinoTableRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double factor = 100 / 44;
+    double defaultSize = 42 + MediaQuery.of(context).textScaleFactor * factor;
+    double sizeWithHelper = defaultSize + 13;
+
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
       onTap: () async {
         if (onPress != null) await onPress!();
       },
       child: SizedBox(
-        height: helper == null ? 44 : 57,
+        height: helper == null ? defaultSize : sizeWithHelper,
         child: Padding(
           padding: padding ?? _kDefaultPadding,
           child: Row(
