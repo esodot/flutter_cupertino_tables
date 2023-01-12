@@ -161,10 +161,10 @@ class CupertinoTableRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double defaultSize = 44 * MediaQuery.of(context).textScaleFactor;
-    double sizeWithHelper = defaultSize + 13;
+    double defaultWithSize = 57 * MediaQuery.of(context).textScaleFactor;
     debugPrint("TextScaleFactor Size: ${MediaQuery.of(context).textScaleFactor}");
     debugPrint("Default Size: $defaultSize");
-    debugPrint("Default Size: $sizeWithHelper");
+    debugPrint("Default Size: $defaultWithSize");
 
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
@@ -172,7 +172,7 @@ class CupertinoTableRow extends StatelessWidget {
         if (onPress != null) await onPress!();
       },
       child: SizedBox(
-        height: helper == null ? defaultSize : sizeWithHelper,
+        height: helper == null ? defaultSize : defaultWithSize,
         child: Padding(
           padding: padding ?? _kDefaultPadding,
           child: Row(
