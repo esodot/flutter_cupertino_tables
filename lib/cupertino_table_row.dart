@@ -162,9 +162,6 @@ class CupertinoTableRow extends StatelessWidget {
   Widget build(BuildContext context) {
     double defaultSize = 44 * MediaQuery.of(context).textScaleFactor;
     double defaultWithSize = 57 * MediaQuery.of(context).textScaleFactor;
-    debugPrint("TextScaleFactor Size: ${MediaQuery.of(context).textScaleFactor}");
-    debugPrint("Default Size: $defaultSize");
-    debugPrint("Default Size: $defaultWithSize");
 
     return GestureDetector(
       behavior: HitTestBehavior.opaque,
