@@ -160,7 +160,7 @@ class CupertinoTableRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double factor = 100 / 44;
+    double factor = 100 / 44 * 2;
     double defaultSize = 42 + MediaQuery.of(context).textScaleFactor * factor;
     double sizeWithHelper = defaultSize + 13;
     debugPrint("TextScaleFactor Size: $MediaQuery.of(context).textScaleFactor");
