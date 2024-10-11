@@ -1,6 +1,6 @@
 ![example workflow](https://github.com/esodot/flutter_cupertino_tables/actions/workflows/flutter.yml/badge.svg)
 
-![In-App Review iOS Demo](https://github.com/esodot/flutter_cupertino_tables/blob/master/screenshots/example.png)
+![In-App Review iOS Demo](https://github.com/esodot/flutter_cupertino_tables/blob/master/screenshots/example.png?raw=true)
 
 Flutter package providing cupertino table section and cupertino table row.
 
